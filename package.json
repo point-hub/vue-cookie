@@ -39,5 +39,21 @@
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/point-hub/cookie.git"
+  },
+  "keywords": [
+    "vuejs",
+    "cookie"
+  ],
+  "author": "Martien Dermawan Tanama <martiendt@gmail.com> (https://www.pointhub.net)",
+  "bugs": {
+    "url": "https://github.com/point-hub/cookie/issues"
+  },
+  "homepage": "https://github.com/point-hub/cookie#readme"
 }

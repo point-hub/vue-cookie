@@ -4,6 +4,7 @@ module.exports = {
     node: true
   },
   extends: ["plugin:vue/vue3-essential", "eslint:recommended", "@vue/prettier"],
+  ignorePatterns: ["dist/*.js"],
   parserOptions: {
     parser: "babel-eslint"
   },

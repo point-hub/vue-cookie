@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["cookie"] = factory();
+		exports["vue-cookie"] = factory();
 	else
-		root["cookie"] = factory();
+		root["vue-cookie"] = factory();
 })((typeof self !== 'undefined' ? self : this), function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -2955,4 +2955,4 @@ module.exports = NATIVE_SYMBOL
 
 /******/ })["default"];
 });
-//# sourceMappingURL=cookie.umd.js.map
+//# sourceMappingURL=vue-cookie.umd.js.map

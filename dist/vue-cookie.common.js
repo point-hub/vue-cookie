@@ -2945,4 +2945,4 @@ module.exports = NATIVE_SYMBOL
 /***/ })
 
 /******/ })["default"];
-//# sourceMappingURL=cookie.common.js.map
+//# sourceMappingURL=vue-cookie.common.js.map

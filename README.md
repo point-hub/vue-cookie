@@ -1,20 +1,20 @@
-# @point-hub/cookie
+# @point-hub/vue-cookie
 
 Vuejs 3 plugin for handle browser cookie
 
 ## Installation
 ```
-yarn add @point-hub/cookie
+yarn add @point-hub/vue-cookie
 
 or
 
-npm install @point-hub/cookie --save
+npm install @point-hub/vue-cookie --save
 ```
 
 ## Usage
 Import Plugin
 ```
-import cookie from "@point-hub/cookie";
+import cookie from "@point-hub/vue-cookie";
 ```
 
 Insert or Update Cookie

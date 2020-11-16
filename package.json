@@ -1,8 +1,8 @@
 {
-  "name": "@point-hub/cookie",
+  "name": "@point-hub/vue-cookie",
   "description": "Cookie",
   "version": "0.1.0",
-  "main": "dist/cookie.common.js",
+  "main": "dist/vue-cookie.common.js",
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve demo/main.js",

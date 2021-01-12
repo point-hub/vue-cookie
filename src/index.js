@@ -35,7 +35,7 @@ function get(name) {
     }
   }
 
-  return cookies;
+  return;
 }
 
 function getAll() {

@@ -1,27 +1,27 @@
 <template>
   <div class="container m-auto">
     <div class="m-4">
-      <h1 class="text-xl font-bold my-2">Cookie Demo</h1>
+      <h1 class="my-2 text-xl font-bold">Cookie Demo</h1>
       <p class="my-2">
         Please check your browser cookie to confirm
       </p>
       <hr class="mb-10" />
-      <h2 class="text-lg my-2">Add Cookie</h2>
+      <h2 class="my-2 text-lg">Add Cookie</h2>
       <div class="flex">
         <input
           type="text"
-          class="border border-gray-600 mr-2 px-2"
+          class="px-2 mr-2 border border-gray-600"
           v-model="form.name"
           placeholder="key"
         />
         <input
           type="text"
-          class="border border-gray-600 mr-2 px-2"
+          class="px-2 mr-2 border border-gray-600"
           v-model="form.value"
           placeholder="value"
         />
         <button
-          class="bg-blue-700 text-white py-1 px-4 uppercase"
+          class="px-4 py-1 text-white uppercase bg-blue-700"
           @click="set(form.name, form.value)"
         >
           Save
@@ -29,10 +29,10 @@
       </div>
       <br />
       <div>
-        <h2 class="text-lg my-2">List Cookie</h2>
+        <h2 class="my-2 text-lg">List Cookie</h2>
         <div class="overflow-auto">
-          <table class="border border-gray-500 table-fixed w-full">
-            <thead class="uppercase text-left">
+          <table class="w-full border border-gray-500 table-fixed">
+            <thead class="text-left uppercase">
               <tr>
                 <th class="p-2">Key</th>
                 <th class="p-2">Value</th>
@@ -41,24 +41,24 @@
             </thead>
             <tbody class="text-sm">
               <tr v-for="(cookie, index) in cookies" :key="index">
-                <td class="break-words border-b border-t border-gray-500 p-2">
+                <td class="p-2 break-words border-t border-b border-gray-500">
                   {{ cookie[0] }}
                 </td>
-                <td class="break-words border-b border-t border-gray-500 p-2">
+                <td class="p-2 break-words border-t border-b border-gray-500">
                   {{ cookie[1] }}
                 </td>
                 <td
-                  class="break-words border-b border-t border-gray-500 p-2 text-right"
+                  class="p-2 text-right break-words border-t border-b border-gray-500"
                 >
                   <button
                     @click="view(cookie[0])"
-                    class="border bg-blue-500 text-white py-1 px-4 uppercase text-xs"
+                    class="px-4 py-1 text-xs text-white uppercase bg-blue-500 border"
                   >
                     View
                   </button>
                   <button
                     @click="remove(cookie[0])"
-                    class="border bg-red-500 text-white py-1 px-4 uppercase text-xs"
+                    class="px-4 py-1 text-xs text-white uppercase bg-red-500 border"
                   >
                     Delete
                   </button>
@@ -73,7 +73,7 @@
 </template>
 
 <script>
-import cookie from "../dist/cookie.common.js";
+import cookie from "../dist/vue-cookie.common.js";
 
 export default {
   name: "App",

@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import "./tailwind.css";
-import cookie from "../dist/cookie.common.js";
+import cookie from "../dist/vue-cookie.common.js";
 
 const app = createApp(App);
 

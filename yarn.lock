@@ -971,10 +971,10 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@point-hub/vue-highlight@^0.1.3":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@point-hub/vue-highlight/-/vue-highlight-0.1.3.tgz#f7829d69e55f8d350db969c42fefbc9f6f0186a1"
-  integrity sha512-tHpJGquXBqnw0NK+PEA1ihZ7ZbhG+8o9wvnT0+GYT/8jvalxLBdZPJkbleHyzGTJIYk3LTtVy0/TXmg0mLUE+Q==
+"@point-hub/vue-highlight@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@point-hub/vue-highlight/-/vue-highlight-0.1.4.tgz#ebdeb88885034f3f168ce0eadc4927d4a127c592"
+  integrity sha512-bLk3KwEXDQdBcmgr6aoOzJtCP2DV0gQR9EklbXw48NpZqN8ee2qelOQhjimh6re1Wi7VLm4qpzG+RianWzZ14A==
   dependencies:
     core-js "^3.6.5"
     highlight.js "^10.2.1"

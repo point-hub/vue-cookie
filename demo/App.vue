@@ -34,7 +34,7 @@
         </div>
         <hr class="mb-10" />
         <h2 class="my-2 text-lg">Add Cookie</h2>
-        <div class="flex">
+        <div class="flex flex-wrap">
           <input
             type="text"
             class="px-2 mr-2 border border-gray-600"

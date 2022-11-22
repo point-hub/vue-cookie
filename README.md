@@ -48,20 +48,13 @@ yarn install
 
 # Compiles and hot-reloads for development
 
-yarn serve
+yarn dev
 
 # Compiles and minifies for production
 
-yarn build
-
-# Run your unit tests
-
-yarn test:unit
+yarn build:lib
 
 # Lints and fixes files
 
 yarn lint
-
-# Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 ```
